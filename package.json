@@ -12,7 +12,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prepublish": "tsc",
-    "npm:publish": "rm -rf ./dist && gulp prepublish"
   },
   "private": false,
   "dependencies": {
