@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {NgxMultiUtilsModule} from './exports/ngx-multi-utils.module';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxMultiUtilsModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
